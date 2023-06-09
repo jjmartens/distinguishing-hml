@@ -3,7 +3,6 @@ import sys
 import time
 import argparse
 import logging
-import random
 
 class State:
     def __init__(self, label, transitions_out, transitions_in):
