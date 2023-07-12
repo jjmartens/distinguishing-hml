@@ -1,4 +1,6 @@
-﻿Prototype to compute distinguishing Hennessy-Milner formulas. For real-world applications one better uses the mCRL2 tool [ltscompare](https://www.mcrl2.org/web/user_manual/tools/release/ltscompare.html)
+﻿Prototype to compute distinguishing Hennessy-Milner formulas.
+Used for the evaluation of [arXiv:2307.05265](https://arxiv.org/abs/2307.05265), to be presented at CONCUR 2023.
+For real-world applications one better uses the counter-examples of the mCRL2 tool [ltscompare](https://www.mcrl2.org/web/user_manual/tools/release/ltscompare.html).
 
     usage: python distinguish.py [-h] [-c] [-v] [-b] [-p] [--logfile LOGFILE] infile1 infile2
 
